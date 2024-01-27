@@ -1,14 +1,15 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 
 export default function SolutionCard() {
     return (
-        <div class="solution_card">
-            <div class="icon">
+        <div className="">
+            <div className="icon">
                 <img
                     data-src="https://redhealth.gumlet.io/build/images/ambulatory-clinic.svg"
                     alt="Ambulatory"
                     src="https://redhealth.gumlet.io/build/images/ambulatory-clinic.svg?w=70&amp;dpr=1.3"
-                    class="gm-loaded gm-observing gm-observing-cb"
+                    className="gm-loaded gm-observing gm-observing-cb"
                 />
             </div>
             <h3>
@@ -22,7 +23,7 @@ export default function SolutionCard() {
             </p>
             <a
                 href="https://www.red.health/solutions/red-priority-clinic"
-                class="button_variation_2"
+                className="button_variation_2"
             >
                 Explore More
             </a>
